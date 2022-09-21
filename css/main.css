@@ -1,0 +1,89 @@
+/***** BASE STYLES *****/
+body { 
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;   
+}
+
+/***** GRID *****/
+.full-width { 
+    width: 1200px;
+    margin: 0 auto; 
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left; 
+}
+.third-width {
+    width: 400px;
+    float: left; 
+}
+/***** HEADER *****/
+header .full-width {
+    height: 500px;
+}
+header h1 { 
+    padding: 50px 0 50px 25px;
+    font-size: 30px;
+    text-transform: uppercase; 
+}
+header h1 span {
+    color: #77a466;
+}
+nav { 
+   float: right;
+   padding: 60px 25px;
+   width: 600px;
+   word-spacing: 25px;
+}
+nav ul li {
+    display: inline-block; 
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a466;
+}
+header img { 
+    border-top: 3px solid #77a466; 
+    border-bottom: 3px solid #77a466; 
+}
+
+/***** ABOUT *****/
+#about {
+    height: 480px;
+}
+#about h2 { 
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 23px;
+    color: #77a466;
+    padding-left: 25px;
+}
+#about .full-width p {
+    padding-left: 25px;
+    line-height: 35px;
+}
+#about .third-width {
+    outline: 2px solid #dedbdc;
+    height: 230px;
+}
+#about .third-width h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 25px;
+}
+#about ul li {
+    color: #77a466;
+    line-height: 50px;
+    list-style: none;
+}
+footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+footer h2 span {
+    color: #77a466;
+    font-size: 25px;
+    font-family: 'Galada' , cursive;
+    text-transform: lowercase; 
+}
